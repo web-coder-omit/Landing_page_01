@@ -1,0 +1,187 @@
+@media (min-width: 320px) and (max-width: 480px) {
+  /* Header responsive start */
+ h2 {
+    font-size: 27px;
+    text-align: center;
+    margin: 0 auto;
+}p {
+    font-size: 18px;
+    text-align: justify;
+    }.header_child_04{
+      display: block;
+    }.header_child_03{
+        display: none;
+    }.header_child_02{
+        display: none;
+    }.header_child_04{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }.header_child_04 i{
+        font-size: 30px;
+    }.header_logo img {
+        width: 120px;
+    }.header_parent{
+        position: relative;
+    }.header_child_02{
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }.header_child_03{
+        position: absolute;
+        top: 234px;
+        right:0px;
+        width: 150px;
+    }.toggle_hlp{
+        position: relative;
+        top: 10px;
+    }nav{
+        background-color: #263038;
+    }.header_child_02 nav ul {
+        display: block;
+    }.header_child_02 {
+        width: 150px;
+        padding: 0;
+        min-height: 500px;
+        color: white;
+    }.header_child_03_login{
+        display: block;
+    }.header_child_03_btn_01{
+        color:white;
+    }.header_child_02 nav ul a {
+        color: white;
+    }.header_child_02 nav ul a:hover{
+        color: rgba(255, 255, 255, 0.514);
+    }.header_child_02 nav ul {
+        padding: 0 17px;
+    }.header_child_03_login {
+        padding: 0 14px;
+    }.x{
+        display: block;
+    }.x i{
+        font-size: 35px;
+    }.header_child_03_login {
+        padding: 0;
+    }.header_child_03_btn_01{
+        border: 1px solid white !important;
+        margin-bottom: 5px;
+    }.header_hero.row {
+        flex-direction: column-reverse;
+    }
+    /*=====----Hero Section----======*/
+    .header_hero_text h1 {
+        font-size: 34px;
+        width: 302px;
+    }.header_hero_text{
+        padding:15px 15px;
+        text-align: center;
+    }.header_hero_02 img {
+        width: 299px;
+        height: 300px;
+    }.header {
+        height: auto;
+    }.header_hero_text button {
+         margin: 0 auto;
+    }
+    /* Header responsive end */
+    /*=========--------Section_01 responsive start--------===========*/
+    .section_01_bottom_text h2 {
+        width: 297px;
+       }.section_01_bottom_text p{
+        margin: 0 auto;
+       }/* section_01 responsive end  */
+    /*=========--------Section_02 responsive start--------===========*/
+    .section_02_duration_text h2{
+        text-align: center;
+    }
+    /* section_02 responsive end  */
+    .section_03_number {
+        justify-content: space-around;
+    }.section_03_inner_text h2 {
+        width: 302px;
+    }.section_06_text p{
+        text-align: justify;
+    }.section_06_marketing_container {
+        margin-top: 67px;
+    }.section_06_mar_text p{
+        width: 250px;
+        font-size: 15px;
+        padding: 0 10px;
+        text-align: justify;
+    }.section_07 h1 {
+        width: 310px;
+        font-size: 33px;
+    } .section_03_img img {
+        width: 60px;
+    }.secion_03_number{
+        margin-left: 20px;
+    }
+
+}/* ----------------------------=======-----Phone responsive end-----=========--------------------- */
+  @media (min-width: 768px) and (max-width: 1024px) {
+  
+    /* CSS */
+    h2 {
+        font-size: 21px;
+    }p {
+        font-size: 15px;
+        text-align: justify;
+    }.header_logo img {
+        width: 90px;
+    }.header_child_02 nav ul a {
+        margin: 3px 5px;
+        font-size: 16px;
+    }.header_child_02 nav ul {
+        padding: 0;
+    }.header_child_03_login button{
+        padding: 5px 14px;
+    }
+       /*=====----Hero Section----======*/
+        .header_hero_text h1 {
+            font-size: 30px;
+            width: 324px;
+        }.header_hero_text p {
+            font-size: 18px;
+        }.header_hero_02 img {
+            width: 333px;
+            height: 333px;
+        }.header {
+            height: 450px;
+        }/* Header responsive end */
+    /*=========--------Section_02 responsive start--------===========*/
+    .section_02_duration {
+        display: flex;
+        align-items: center;
+    }.section_03_text{
+        display: flex;
+        align-items: center;
+    }.section_05_customar_text p {
+        padding: 0px 0;
+    }.section_06_mar_text p {
+        padding: 3px;
+    }.section_06 {
+        padding-top: 22px;
+        padding-bottom: 75px;
+    }.section_03_img img {
+        width: 59px;
+        margin-right: 23px;
+    }.section_03 {
+        padding: 13px 0;
+    }.section_01_top_text p{
+        text-align: center;
+    }.section_01_bottom_text p{
+        text-align: center;
+    }.section_02_parent {
+        padding-top: 0px;
+    }.footer_text_01_inner_text p {
+        color: rgb(255, 255, 255);
+        width: 193px;
+        margin-bottom: 11px;
+    }.footer_text_01_inner_text ul li {
+        margin: -12px;
+    }.footer_text_02{
+        font-size: 14px;
+    }.section_01_community p{
+        word-spacing: 1px;
+    }   
+  }
